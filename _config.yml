@@ -4,17 +4,17 @@ repository: sproogen/resume-theme
 
 # Personal info
 name: Soroush Afzalian
-title:  🐧 Network and Computer Systems Administrators
+title:  🐧 Network Systems Administrator
 email: soroush.afzalian@gmail.com
 website: soroushsharing.gitlab.io
 
 # Social links
-twitter_username: https://twitter.com/antisec12
+twitter_username: antisec12
 github_username:  antisec12
 telegram_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: https://instagram.com/antisec12
+instagram_username: antisec12
 #linkedin_username: jameswgrant
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -25,7 +25,7 @@ instagram_username: https://instagram.com/antisec12
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Soroush and I'm 21 years old.  My linux's world has been started with Fedora, but I am currently user of the <mark>archlinux</mark> and I am working on it for more personalization.
-    - preparing a new gnu/linux distrobution that based on archlinux.
+    - preparing a new gnu/linux distrobution that is based on archlinux.
     
 
 # Projects Section
