@@ -1,1 +1,64 @@
-theme: jekyll-theme-slate
+# Site
+repository: sproogen/resume-theme
+# favicon: images/favicon.ico
+
+# Personal info
+name: Soroush Afzalian
+title:  🐧 Network and Computer Systems Administrators
+email: soroush.afzalian@gmail.com
+website: soroushsharing.gitlab.io
+
+# Social links
+twitter_username: https://twitter.com/antisec12
+github_username:  antisec12
+telegram_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: https://instagram.com/antisec12
+#linkedin_username: jameswgrant
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Soroush and I'm 21 years old.  My linux's world has been started with Fedora, but I am currently user of the <mark>archlinux</mark> and I am working on it for more personalization.
+    - preparing a new gnu/linux distrobution that based on archlinux.
+    
+
+# Projects Section
+#projects_title: Projects
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+more_title: A Little More About Me (Skill)
+more_content: | # this will include new lines to allow paragraphs
+  Network and Computer Systems Administrators:
+   - Network Plus
+   - TOR (The Onion Routing)
+   
+    GNU/Linux (Installation, Configuration, Troubleshooting)
+   - Junoir: <mark>Git</mark>, <mark>Docker</mark>, <mark>Bash Script</mark>, <mark>OpenVPN</mark>, <mark>TOR +Bridges</mark>.
+   - Middle: <mark>archlinux</mark>, <mark>Fedora</mark>, <mark>Ubuntu</mark>, <mark>CentOS</mark>.
+    
+    Ms-Windows (Installation, Configuration, Troubleshooting)
+   - Junoir: <mark>DHCP</mark>, <mark>DNS</mark>, <mark>Active-Directory</mark>.
+   
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
