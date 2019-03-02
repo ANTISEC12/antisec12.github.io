@@ -4,7 +4,7 @@ repository: sproogen/resume-theme
 
 # Personal info
 name: Soroush Afzalian
-title:  🐧 Network Systems Administrator
+title:  🐧 Network System Administrator
 email: soroush.afzalian@gmail.com
 website: soroushsharing.gitlab.io
 
@@ -25,7 +25,7 @@ instagram_username: antisec12
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Soroush and I'm 21 years old.  My linux's world has been started with Fedora, but I am currently user of the <mark>archlinux</mark> and I am working on it for more personalization.
-    - preparing a new gnu/linux distrobution that is based on archlinux.
+    - Preparing a new gnu/linux distrobution that is based on archlinux.
     
 
 # Projects Section
@@ -37,9 +37,9 @@ about_content: | # this will include new lines to allow paragraphs
 # educaton_title: Education
 
 # More Section
-more_title: A Little More About Me (Skill)
+more_title: A Little More About Me (Skills)
 more_content: | # this will include new lines to allow paragraphs
-  Network and Computer Systems Administrators:
+  Network and Computer System Administrator:
    - Network Plus
    - TOR (The Onion Routing)
    

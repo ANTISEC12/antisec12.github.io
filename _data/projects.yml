@@ -6,7 +6,7 @@
   description: |
    I do not need to use Windows as the main operating system, because I am a <mark>GNU/Linux Lover</mark>.
    Why? Because information protection and privacy are important for me. And most of all I love the TOR.
-   However, sometimes I have to use Ms-Windows, and so I've done the <mark>TorForWindows</mark> for Windows using the official bundle of the [TOR Project](https://www.torproject.org/) and another software package such as: [Privoxy](https://www.privoxy.org/) and [obfs4](https://github.com/Yawning/obfs4).	
+   However, sometimes I have to use Ms-Windows, and so I've done the <mark>TorForWindows</mark> for Windows using the official bundle of the [TOR Project](https://www.torproject.org/) and another software packages such as: [Privoxy](https://www.privoxy.org/) and [obfs4](https://github.com/Yawning/obfs4).	
 
 - name: Conky_Digilog
   github: antisec12/conky_digilog
