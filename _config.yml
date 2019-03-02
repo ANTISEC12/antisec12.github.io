@@ -44,8 +44,8 @@ more_content: | # this will include new lines to allow paragraphs
    - TOR (The Onion Routing)
    
     GNU/Linux (Installation, Configuration, Troubleshooting)
-   - Junoir: <mark>Git</mark>, <mark>Docker</mark>, <mark>Bash Script</mark>, <mark>OpenVPN</mark>, <mark>TOR +Bridges</mark>.
-   - Middle: <mark>archlinux</mark>, <mark>Fedora</mark>, <mark>Ubuntu</mark>, <mark>CentOS</mark>.
+   - Junoir: <mark>Git</mark>, <mark>Docker</mark>, <mark>Bash Script</mark>, <mark>OpenVPN</mark>, <mark>TOR +Bridges</mark>, <mark>PostgreSQL</mark>, <mark>SQL Server</mark>.
+   - Middle: <mark>archlinux</mark>, <mark>Fedora</mark>, <mark>CentOS</mark>, <mark>Ubuntu</mark>, <mark>Debian</mark>.
     
     Ms-Windows (Installation, Configuration, Troubleshooting)
    - Junoir: <mark>DHCP</mark>, <mark>DNS</mark>, <mark>Active-Directory</mark>.
