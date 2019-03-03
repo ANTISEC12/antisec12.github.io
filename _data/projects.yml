@@ -5,7 +5,7 @@
     This project allows you to easily use the <mark>TOR software</mark> + <mark>Bridges</mark> on your Ms-Windows!
   description: |
    **TOR is a free project  that uses Onion Routing technique for anonymous communication over a computer network, that helps you to protect your anonymity while using the Internet.**
-   Of course, the TOR is not a <mark>Proxy</mark> or <mark>VPN</mark>! **But, actually ... as a secure Proxy, The TOR Network is more secure than every Public Proxy or VPN.**
+   Of course, the TOR is not a <mark>Proxy</mark> or <mark>VPN</mark>! **But, actually... as a secure Proxy, The TOR Network is more secure than every Public Proxy or VPN.**
    
    However, sometimes I have to use Ms-Windows, and so I've prepare the <mark>TorForWindows</mark> for Windows using the official bundle of the [TOR Project](https://www.torproject.org/) and another software packages such as: [Privoxy](https://www.privoxy.org/) and [obfs4](https://github.com/Yawning/obfs4).	
 

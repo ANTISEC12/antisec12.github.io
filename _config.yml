@@ -25,7 +25,7 @@ instagram_username: antisec12
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Soroush and I'm 21 years old.  My linux 's world has been started with Fedora, but I am currently user of the <mark>archlinux</mark> and I am working on it for more personalization.
-    - Preparing a new gnu/linux distrobution that is based on archlinux.
+    - Preparing a new gnu/linux distribution that is based on archlinux.
     
 
 # Projects Section
