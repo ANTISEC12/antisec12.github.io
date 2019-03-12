@@ -1,13 +1,9 @@
 ---
+#
+# By default, content added below the "---" mark will appear in the home page
+# between the top bar and the list of recent posts.
+# To change the home page layout, edit the _layouts/home.html file.
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
 layout: default
 ---
-
-{% include navbar.html %}
-{% include home/resume.html %}
-{% include home/projects.html %}
-{% include home/libraries.html %}
-{% include home/microservices.html %}
-{% include home/writing.html %}
-{% include footer.html %}
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.4.1/dist/vanilla-tilt.min.js"></script>

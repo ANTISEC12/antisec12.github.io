@@ -1,23 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
 
-{% include ascii-art.html %}
-
-<head>
-  {% include head.html %}
-</head>
+{%- include head.html -%}
 
 <body>
-  {{ content }}
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+
+            {%- include about.html -%}
+
+            {%- if site.data.projects.size > 0 -%}
+                {%- include projects.html -%}
+            {%- endif -%}
+
+            {%- if site.data.experience.size > 0 -%}
+                {%- include experience.html -%}
+            {%- endif -%}
+
+            {%- if site.data.education.size > 0 -%}
+                {%- include education.html -%}
+            {%- endif -%}
+
+            {%- include more.html -%}
+
+        </div>
+    </main>
+
+  
 </body>
-{% include links-visited.html %}
-{% include links-external.html %}
-<script src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-    anchors.add();
-  });
-</script>
-{% include analytics.html %}
 
 </html>
