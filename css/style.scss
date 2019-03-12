@@ -1,0 +1,24 @@
+---
+---
+@charset 'utf-8';
+
+$gold            : #D4A14B;
+$primary-color   : $gold;
+$secondary-color : #ddd;
+$mark-color      : #feda9e;
+
+$code-font       : Menlo,Monaco,Lucida Console,Liberation Mono, DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace, serif;
+$line-height     : 1.8em;
+
+.primary {
+  color: $primary-color;
+}
+
+.bg-primary {
+  background-color: $primary-color;
+}
+
+@import 'tachyons';
+@import 'global';
+@import 'highlight';
+@import 'post';

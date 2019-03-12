@@ -1,66 +1,61 @@
-# Site
-repository: sproogen/resume-theme
-# favicon: images/favicon.ico
+title: Kikobeats
+email: josefrancisco.verdu@gmail.com
+description: A millennial doing stuff on internet that ships software every day and builds digital products.
+github: kikobeats
+author: kikobeats
+logo: /images/avatar-glitch.jpg
 
-# Personal info
-name: Soroush Afzalian
-title:  🐧 Junior Network System Administrator
-email: soroush.afzalian@gmail.com
-website: soroushsharing.gitlab.io
+social:
+  name: Kiko Beats
+  links:
+    - https://twitter.com/kikobeats
+    - https://github.io/kikobeats
+    - https://www.linkedin.com/in/kikobeats
 
-# Social links
-twitter_username: antisec12
-github_username:  antisec12
-telegram_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: antisec12
-#linkedin_username: jameswgrant
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
+twitter:
+  username: kikobeats
 
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Soroush and I'm 21 years old.  My linux 's world has been started with Fedora, but I am currently user of the <mark>archlinux</mark> and I am working on it for more personalization.
-    - Preparing a new gnu/linux distribution that is based on archlinux.
-    
+permalink: "/:title/"
+disqus_shortname: kikobeats
+google_analytics: UA-34372837-2
 
-# Projects Section
-#projects_title: Projects
-# Experience Section
-# experience_title: Experience
-
-# Education Section
-# educaton_title: Education
-
-# More Section
-more_title: A Little More About Me (Self-Study Skills)
-more_content: | # this will include new lines to allow paragraphs
-  Network and Computer System Administrator:
-   - Network Plus
-   - CCNA 
-   - MCSA
-   
-    GNU/Linux (Installation, Configuration, Troubleshooting)
-   - Junoir: <mark>Git</mark>, <mark>Docker</mark>, <mark>Bash Script</mark>, <mark>OpenVPN</mark>, <mark>TOR +Bridges</mark>, <mark>PostgreSQL</mark>, <mark>SQL Server</mark>, <mark>Zabbix</mark>, <mark>Virtualization</mark> **(Qemu_KVM - VMWare)**.
-   - Middle: <mark>archlinux</mark>, <mark>Fedora</mark>, <mark>CentOS</mark>, <mark>Ubuntu</mark>, <mark>Debian</mark>.
-    
-    Ms-Windows (Installation, Configuration, Troubleshooting)
-   - Junoir: <mark>DHCP</mark>, <mark>DNS</mark>, <mark>Active-Directory</mark>.
-
-   
-# Footer
-footer_show_references: false
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "default"
+
+jekyll-archives:
+  enabled:
+    - categories
