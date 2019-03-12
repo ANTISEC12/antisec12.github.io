@@ -45,7 +45,7 @@ more_content: | # this will include new lines to allow paragraphs
    - MCSA
    
     GNU/Linux (Installation, Configuration, Troubleshooting)
-   - Junoir: <mark>Git</mark>, <mark>Docker</mark>, <mark>Bash Script</mark>, <mark>OpenVPN</mark>, <mark>TOR +Bridges</mark>, <mark>PostgreSQL</mark>, <mark>SQL Server</mark>,<mark>Git</mark>, <mark>Virtualization</mark> **(Qemu_KVM - VMWare)**.
+   - Junoir: <mark>Git</mark>, <mark>Docker</mark>, <mark>Bash Script</mark>, <mark>OpenVPN</mark>, <mark>TOR +Bridges</mark>, <mark>PostgreSQL</mark>, <mark>SQL Server</mark>,<mark>Zabbix</mark>, <mark>Virtualization</mark> **(Qemu_KVM - VMWare)**.
    - Middle: <mark>archlinux</mark>, <mark>Fedora</mark>, <mark>CentOS</mark>, <mark>Ubuntu</mark>, <mark>Debian</mark>.
     
     Ms-Windows (Installation, Configuration, Troubleshooting)
