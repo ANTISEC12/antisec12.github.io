@@ -1,35 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
-
-{%- include head.html -%}
-
+<html lang="en">
+<head>
+{% include meta_tags/base.html %}
+{% include externals/styling.html %}
+</head>
 <body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-        <div class="wrapper">
-
-            {%- include about.html -%}
-
-            {%- if site.data.projects.size > 0 -%}
-                {%- include projects.html -%}
-            {%- endif -%}
-
-            {%- if site.data.experience.size > 0 -%}
-                {%- include experience.html -%}
-            {%- endif -%}
-
-            {%- if site.data.education.size > 0 -%}
-                {%- include education.html -%}
-            {%- endif -%}
-
-            {%- include more.html -%}
-
-        </div>
-    </main>
-
-  
+<div class="wrapper">
+{% include header.html %}
+{{ content }}
+</div>
+{% include externals/scripting.html %}
 </body>
-
 </html>

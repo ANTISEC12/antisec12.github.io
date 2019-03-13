@@ -1,66 +1,22 @@
-# Site
-repository: sproogen/resume-theme
-# favicon: images/favicon.ico
+# Site settings
+title: "#ANTISEC"
+description: >
 
-# Personal info
-name: Soroush Afzalian
-title:  🐧 Junior Network System Administrator
-email: soroush.afzalian@gmail.com
-website: soroushsharing.gitlab.io
 
-# Social links
-twitter_username: antisec12
-github_username:  antisec12
-telegram_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: antisec12
-#linkedin_username: jameswgrant
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://antisec12.github.io/" # the base hostname & protocol for your site
 
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Soroush and I'm 21 years old.  My linux 's world has been started with Fedora, but I am currently user of the <mark>archlinux</mark> and I am working on it for more personalization.
-    - Preparing a new gnu/linux distribution that is based on archlinux.
-    
+author:
+  fullname: Soroush Afzalian
+  github: antisec12
+  email: soroush.afzalian@gmail.com
 
-# Projects Section
-#projects_title: Projects
-# Experience Section
-# experience_title: Experience
 
-# Education Section
-# educaton_title: Education
+# Syntax highlighting
+highlightstyle: 'agate'
+styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
 
-# More Section
-more_title: A Little More About Me (Self-Study Skills)
-more_content: | # this will include new lines to allow paragraphs
-  Network and Computer System Administrator:
-   - Network Plus
-   - CCNA 
-   - MCSA
-   
-    GNU/Linux (Installation, Configuration, Troubleshooting)
-   - Junoir: <mark>Git</mark>, <mark>Docker</mark>, <mark>Bash Script</mark>, <mark>OpenVPN</mark>, <mark>TOR +Bridges</mark>, <mark>PostgreSQL</mark>, <mark>SQL Server</mark>, <mark>Zabbix</mark>, <mark>Virtualization</mark> **(Qemu_KVM - VMWare)**.
-   - Middle: <mark>archlinux</mark>, <mark>Fedora</mark>, <mark>CentOS</mark>, <mark>Ubuntu</mark>, <mark>Debian</mark>.
-    
-    Ms-Windows (Installation, Configuration, Troubleshooting)
-   - Junoir: <mark>DHCP</mark>, <mark>DNS</mark>, <mark>Active-Directory</mark>.
-
-   
-# Footer
-footer_show_references: false
 
 # Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
+highlighter: null
+markdown: kramdown
