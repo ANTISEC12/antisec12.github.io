@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Soroush Afzalian 
-subtitle: Junior linux System Administrator
+subtitle: Junior Linux System Administrator
 sitemap:
   priority: 0.9
 ---
